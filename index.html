@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel='stylesheet' type="text/css">
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <title>002 Audio Wave Form</title>
+</head>
+<body>
+<section class="section_audio_player">
+
+    <div class="wave_surfer"></div>
+
+    <div class="audio_player_timer_duration">
+        <p class="audio_time_text audio_current_time_text">Buffering...</p>
+        <p class="audio_time_text audio_total_duration">Loading...</p>
+    </div>
+    <div class="wave_form_wrapper">
+        <div class="wave_form_back"></div>
+        <div class="wave_form_front"></div>
+        <div class="audio_scrubber"></div>
+    </div>
+    <div class="audio_player_controls">
+        <div class="audio_player_backward">
+            <ion-icon class="icon" name="play-back-circle-outline"></ion-icon>
+        </div>
+        <div class="audio_player_play">
+            <ion-icon class="icon" name="play-circle-outline"></ion-icon>
+        </div>
+        <div class="audio_player_forward">
+            <ion-icon class="icon" name="play-forward-circle-outline"></ion-icon>
+        </div>
+    </div>
+</section>
+<script src="app.js" type="application/javascript"></script>
+<script src="wavesurfer.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-const url = 'https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3'
+const url = './audio.mp3'
 
 let wavesurfer = WaveSurfer.create({
   container: '.wave_surfer',

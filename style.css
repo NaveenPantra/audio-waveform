@@ -145,6 +145,13 @@ body {
     margin: 0 10px;
 }
 
+footer {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 @keyframes leftRightWFB {
     0% {
         clip-path: polygon(0 0, 0% 0%, 0% 100%, 0 100%);

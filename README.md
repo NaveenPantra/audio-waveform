@@ -1,3 +1,5 @@
+### Check this Repo for complete Audio Player https://github.com/NaveenPantra/call-recording-waveform
+
 # audio-waveform
 Interactive and Bufferable audio wave form.
 
